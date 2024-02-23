@@ -19,6 +19,11 @@ const pageCache = new CacheFirst({
   ],
 });
 
+registerRoute(
+  /\.(?:css|js|png|jpg|jpeg|svg|gif)$/,
+  pageCache
+);
+
 warmStrategyCache({
   urls: ['/index.html', '/'],
   strategy: pageCache,
