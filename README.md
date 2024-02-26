@@ -5,9 +5,10 @@ This application is a simple text editor for you to write down thoughts, notes, 
 
 ## Visuals
 <img src='./Develop/client/src/images/browser-view.png'>
+<img src='./Develop/client/src/images/desktop-view.png'>
 
 ## Installation
-In order to install this app, you need to first install all dependencies. Run command 'npm i' to accomplish this. Make sure you are in the correct folder to do this for both the client and server folders at once. Once this is done, you need to bundle all your folders using webpack. To do this you need to run command 'npm run build'.
+This application is already deployed to Render. Users may follow the link below to access this program. No other installation process needed.
 
 ## Usage
 This application can be used for a number of things. For example, I myself use it as a to do list. The numbers along the side of the page make it easy to keep track of how many tasks I have left. When I complete a task I can just delete it from my list and continue on. All changes I make will be kept on the page even if I close it out and re-open it later.
