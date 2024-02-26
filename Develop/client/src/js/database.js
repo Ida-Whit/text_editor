@@ -12,6 +12,7 @@ const initdb = async () =>
     },
   });
 
+//Functionality to add data to the jate database
 export const putDb = async (content) => {
   const noteDb = await openDB('jate', 1);
   const tx = noteDb.transaction('jate', 'readwrite');
@@ -21,6 +22,7 @@ export const putDb = async (content) => {
   console.log('Data saved to the database', result);
 };
 
+//Functionality to get all data from jate databse and display it on screen
 export const getDb = async () => {
   console.log("Get data from database")
   const noteDb = await openDB('jate', 1);
