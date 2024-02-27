@@ -4,8 +4,8 @@
 This application is a simple text editor for you to write down thoughts, notes, lists, etc. This application is able to run in your web broweser or, if you wish, downloaded to your desktop for use there. Any data you enter into your editor will persist through each page refresh as well as through closing the page and opening it again.
 
 ## Visuals
-<img src='./Develop/client/src/images/browser-view.png'>
-<img src='./Develop/client/src/images/desktop-view.png'>
+<img src='./client/src/images/browser-view.png'>
+<img src='./client/src/images/desktop-view.png'>
 
 ## Installation
 This application is already deployed to Render. Users may follow the link below to access this program. No other installation process needed.
